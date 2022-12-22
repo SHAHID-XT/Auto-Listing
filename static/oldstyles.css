@@ -1,0 +1,78 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 1em;
+  /* transition: all 1s; */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  min-height: 100%;
+}
+header {
+  padding: 1rem 3rem;
+  display: flex;
+  min-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: rgb(90, 122, 90);
+  height: 4.5rem;
+}
+
+header > ul {
+  list-style: none;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header > ul > li > a {
+  color: #000;
+  white-space: nowrap;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: serif, Helvetica, sans-serif;
+  display: inline-block;
+  margin: auto 0pc;
+  margin: 0rem 0.2em;
+  padding: 0.1rem 0.5rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+header > ul > li > a:hover {
+  color: aliceblue;
+  transition: all 0.15s;
+  background-color: gray;
+}
+
+.quot {
+  margin-top: 10px;
+  font-size: 2.5rem;
+  padding: 10px 20px;
+  height: auto;
+}
+.register{
+  display: grid;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.register-form > input{
+  margin: 0.2rem 0rem;
+  padding: 0.3rem 0.2rem;
+  border-radius: 5px;
+  font-size: 100%;
+  display: block;
+}
