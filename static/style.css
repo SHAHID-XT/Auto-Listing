@@ -9,7 +9,6 @@
 }
 
 body {
-    background-color: var(--box);
     background-image: linear-gradient(315deg, #ffffff 0%, #e3e9f0 74%);
     /* background: rgb(238, 236, 236); */
 }
